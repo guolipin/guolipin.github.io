@@ -1,4 +1,4 @@
-# guolipin.github.io
+# Build A Personal Website From Scratch
 
 ### To do
 * adding web preloader / animation
