@@ -1,0 +1,11 @@
+{
+  "name":"build-website-from-scratch",
+  "version":"1.0.0",
+  "description":"Code samples for the HTML5, CSS, and JavaScript",
+  "scripts":{
+	"start":"live-server --port=8080"
+  },
+  "keywords":[],
+  "author":"Lipin Guo (guolipin1994@gmail.com)",
+  "license": "MIT"
+}
