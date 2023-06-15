@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: #ffc0cb;
+}
+
+h2 {
+    color: #ffe4e1;
+    margin-left: 40px;            
+}
