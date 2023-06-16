@@ -5,22 +5,35 @@
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-  <h1 onclick="handleClick(this)">Information</h1>
-  <h2>Education</h2>
-  <h2>Experience</h2>
-  <h1 onclick="handleClick(this)">Projects</h1>
-  <h2>Situation</h2>
-  <h2>Task</h2>
-  <h2>Action</h2>
-  <h2>Result</h2>
-  <h2>Relection</h2>
-
+  <h1>Information</h1>
+  <div>
+    <h2>Education</h2>
+    <h2>Experience</h2>
+  </div>
+  <h1>Projects</h1>
+  <div>
+    <h2>Situation</h2>
+    <h2>Task</h2>
+    <h2>Action</h2>
+    <h2>Result</h2>
+    <h2>Relection</h2>
+  </div>
+  <script src=" /node_modules/jquery/dist/jquery.js"></script>
   <script>
-    function handleClick(node) {
-      var value = node.getAttribute('class') || '';
-      value = value === '' ? 'clicked' : '';
-      node.setAttribute('class',value);
-    }
+    $(document).ready(function () {
+      $('h1').prepend('<span class="node">-</span>');
+      $('h1').click(
+          function () {
+            var node = $(this).children('.node');
+            $(this).next().fadeToggle(500, 'swing',
+                function () {
+                  var mark = node.text();
+                  mark = mark === '-' ? '+' : '-';
+                  node.text(mark);
+                });
+          });
+    });
+  </script>
   </script>
 </body>
 </html>
