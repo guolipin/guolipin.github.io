@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: #ffc0cb;
+}
+
+h1.clicked {
+    color: #ffc0cb;
+    background-color: #fdf4f3;
+}
+
+h1.node{
+    font-family: monospace;
+}
+
+h2 {
+    color: #ffe4e1;
+    margin-left: 40px;            
+    border-bottom: 4px dotted black;
+}

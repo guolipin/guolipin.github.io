@@ -1,19 +1,41 @@
 <!DOCTYPE html>
+</html>
 <head>
   <title>Lipin's Website</title>
+  <meta name="author" content="Lipin Guo">
+  <link href="style.css" rel="stylesheet" />
 </head>
-<body style="font-family: Verdana, Arial, sans-serif">
-  <h1 style="color: white; background-color:#ffe4e1">
-	I am working on it currently.
-  </h1>
-  <h2 style="color:#FF645F; margin-left:40px">Education</h2>
-  <h2 style="color:#FF645F; margin-left:40px">Experience</h2>
-  <h1 style="color: white;background-color:#ffc0cb">Projects</h1>
-  <h2 style="color:#E6E6FA; margin-left: 40px">Situation</h2>
-  <h2 style="color:#DBEBEB; margin-left: 40px">Task</h2>
-  <h2 style="color:#CBECA4; margin-left: 40px">Action</h2>
-  <h2 style="color:#FEE4BD; margin-left: 40px">Result</h2>
-  <h2 style="color:#FFC3BD; margin-left: 40px">Relection</h2>
+<body>
+  <h1>Information</h1>
+  <div>
+    <h2>Education</h2>
+    <h2>Experience</h2>
+  </div>
+  <h1>Projects</h1>
+  <div>
+    <h2>Situation</h2>
+    <h2>Task</h2>
+    <h2>Action</h2>
+    <h2>Result</h2>
+    <h2>Relection</h2>
+  </div>
+  <script src=" /node_modules/jquery/dist/jquery.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('h1').prepend('<span class="node">-</span>');
+      $('h1').click(
+          function () {
+            var node = $(this).children('.node');
+            $(this).next().fadeToggle(500, 'swing',
+                function () {
+                  var mark = node.text();
+                  mark = mark === '-' ? '+' : '-';
+                  node.text(mark);
+                });
+          })
+    });
+  </script>
+  </script>
 </body>
 </html>
 
