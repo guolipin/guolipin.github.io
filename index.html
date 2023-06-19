@@ -2,7 +2,6 @@
 </html>
 <head>
   <title>Lipin's Website</title>
-  <meta name="author" content="Lipin Guo">
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
@@ -21,32 +20,29 @@
   </div>
   <h1>Test</h1>
   <div>
-    <strong>This strong text</strong>
-    goes inline with this, but
-    <em style="display: block">
-      emphasied text goes in its own block.
-    </em>
     <p>
-      Because &lt;p&gt; defines block content, 
-      this text goes into a separate paragraph.
+      The following definition describes the
+      <code>ILoggable</code> interface that
+      should be implemented by loggable
+      data structures. <var>Timestamp</var>
+      holds the exact time point of the
+      event to be logged.
     </p>
-    <div>
-      &lt;div&gt; always start a new block,
-      <span style="font-weight: bold">
-        however &lt;span&gt; defines a logical container for inline text.
-      </span>
-    </div>
-    <div>
-      <code> print("Hello world!")</code>
-      <big> I am working on this website.</big>
-      <p><bdo dir="rtl">Can You Understand</bdo></p>
-      <b>cool</b>
-      <p>This website is all about <abbr title="HyperText Markup Language">HTML</abbr></p>
-      <del>Try to delete it</del>
-      <p><del>Try to delete it</del></p>
-      <q>Two things fill the mind with always new and ever-increasing admiration and awe, the more often and more intensely the thinking is occupied with it - the starry heavens above me and the moral law within me.</q> - Immanuel Kant
-    </div>
-
+    <pre>using System;
+  namespace Logging
+  {
+    // This interface represent log data.
+    public interface ILoggable
+    {
+      // Gets or sets the time of the event
+      DateTime Timestamp {get; set;}
+    }
+   }</pre>
+    <p>
+      Surround your code with
+      <kbd>&lt;pre&gt;</kbd>
+      to preserve spacing.
+    </p>
   </div>
   <script src=" /node_modules/jquery/dist/jquery.js"></script>
   <script>
