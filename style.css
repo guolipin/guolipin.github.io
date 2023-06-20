@@ -21,3 +21,19 @@ h2 {
     margin-left: 40px;            
     border-bottom: 4px dotted black;
 }
+
+ul {
+    font-family: "Verdana", sans-serif;
+    background-color:#ffc0cb;
+    color:#fdf4f3;
+    padding: 8px 0;
+}
+
+li {
+    padding: 8px 20px;
+    display: inline;
+}
+
+li.active {
+    background-color: pink;
+}
