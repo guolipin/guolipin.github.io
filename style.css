@@ -37,3 +37,24 @@ li {
 li.active {
     background-color: pink;
 }
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    margin: 100px 20px;
+    text-align:center;
+    color: white;
+}
+
+.pink {
+    background-color: pink
+}
+
+.green {
+    background-color:#b4eeb4;
+}
+
+.blue {
+    background-color:#afeeee;
+}
+
