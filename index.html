@@ -2,10 +2,19 @@
 </html>
 <head>
   <title>Lipin's Website</title>
+  <meta charset="UTF-8">
   <meta name="author" content="Lipin Guo">
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
+  <a href="./img/girl/girl.jpeg" target="_block">
+    <img src="./img/girl/girl.jpeg" height="600" align="right" alt="Chinese girl">
+  </a>
+  <ul>
+    <li class="active">Home</li>
+    <li>Profile</li>
+    <li>Contact</li>
+  </ul>
   <h1>Information</h1>
   <div>
     <h2>Education</h2>
@@ -19,6 +28,19 @@
     <h2>Result</h2>
     <h2>Relection</h2>
   </div>
+  <p>
+    Go to <a href="http://github.com/guolipin" target="_blank">
+    This page</a>
+    for more info about my projects.
+  </p>
+  <ul>
+    <li><a href="#pink">Pink</a></li>
+    <li><a href="#green">Green</a></li>
+    <li><a href="#blue">Blue</a></li>
+  </ul>
+  <div id="pink" class="rectangle pink">Pink</div>
+  <div id="green" class="rectangle green">Green</div>
+  <div id="blue" class="rectangle blue">Blue</div>
   <script src=" /node_modules/jquery/dist/jquery.js"></script>
   <script>
     $(document).ready(function () {
