@@ -7,40 +7,52 @@
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-  <a href="./img/girl/girl.jpeg" target="_block">
-    <img src="./img/girl/girl.jpeg" height="600" align="right" alt="Chinese girl">
-  </a>
-  <ul>
-    <li class="active">Home</li>
-    <li>Profile</li>
-    <li>Contact</li>
-  </ul>
-  <h1>Information</h1>
-  <div>
-    <h2>Education</h2>
-    <h2>Experience</h2>
-  </div>
-  <h1>Projects</h1>
-  <div>
-    <h2>Situation</h2>
-    <h2>Task</h2>
-    <h2>Action</h2>
-    <h2>Result</h2>
-    <h2>Relection</h2>
-  </div>
-  <p>
-    Go to <a href="http://github.com/guolipin" target="_blank">
-    This page</a>
-    for more info about my projects.
-  </p>
-  <ul>
-    <li><a href="#pink">Pink</a></li>
-    <li><a href="#green">Green</a></li>
-    <li><a href="#blue">Blue</a></li>
-  </ul>
-  <div id="pink" class="rectangle pink">Pink</div>
-  <div id="green" class="rectangle green">Green</div>
-  <div id="blue" class="rectangle blue">Blue</div>
+  <section>
+    <ul>
+      <li class="active">Home</li>
+      <li>Profile</li>
+      <li>Contact</li>
+    </ul>
+    </section>
+  <section>
+    <figure>
+      <a href="./img/girl/girl.jpeg" target="_block">
+        <img src="./img/girl/girl.jpeg" height="600" align="right" alt="Chinese girl">
+      </a>
+    </figure>
+    <div align="left">
+      <p>Embrace yourself</p>
+      <p>Embrace the world</p>
+      <p>Embrace the future</p>
+      <p></p>
+    </div>
+  </section>
+  <section>
+  
+    <article>
+      <header>
+        <h1 class="click">My story</h1>
+      </header>
+      <div class="mainContent">
+        <h2>Education</h2>
+        <h2>Experience</h2>
+        <h1 class="click">Projects</h1>
+          <p>Situation</p>
+          <p>Task</p>
+          <p>Action</p>
+          <p>Result</p>
+          <p>Relection</p>
+      </div>
+     
+    </article>
+  </section>
+  <footer class="pageFooter">
+    <p>
+      Go to <a href="http://github.com/guolipin" target="_blank">
+      this page</a>
+      for more info about my projects.
+      &copy; Lipin Guo, 2023</p>
+  </footer>
   <script src=" /node_modules/jquery/dist/jquery.js"></script>
   <script>
     $(document).ready(function () {

@@ -1,5 +1,11 @@
 body {
+    margin-left:16px;
     font-family: Verdana, Arial, sans-serif;
+}
+
+hearder {
+    background-color:#f9e0de;
+    padding: 2px 16px;
 }
 
 h1 {
@@ -58,3 +64,33 @@ li.active {
     background-color:#afeeee;
 }
 
+.byLine {
+    color: white;
+    font-style:italic;
+}
+
+.mainContent {
+    background-color: #fdf4f3;
+    padding: 4px 16px;
+}
+
+.abstract {
+    font-size: 0.9em;
+    font-style: italic;
+    color: pink;
+}
+
+.pageFooter {
+    background-color:pink;
+    padding: 1px 16px;
+}
+
+    footer.pageFooter>p {
+        color: white;
+        font-size: 0.8em;
+    } 
+
+figure {
+    float: right;
+    margin: 0 0 0 16px;
+}
