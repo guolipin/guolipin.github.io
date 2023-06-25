@@ -64,28 +64,13 @@ li.active {
     background-color:#afeeee;
 }
 
-.byLine {
-    color: white;
-    font-style:italic;
-}
 
-.mainContent {
-    background-color: #fdf4f3;
-    padding: 4px 16px;
-}
-
-.abstract {
-    font-size: 0.9em;
-    font-style: italic;
-    color: pink;
-}
-
-.pageFooter {
+footer {
     background-color:pink;
     padding: 1px 16px;
 }
 
-    footer.pageFooter>p {
+    footer >p {
         color: white;
         font-size: 0.8em;
     } 
