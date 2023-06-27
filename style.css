@@ -32,7 +32,7 @@ ul {
     font-family: "Verdana", sans-serif;
     background-color:#ffc0cb;
     color:#fdf4f3;
-    padding: 8px 0;
+    padding: 8px 5px;
 }
 
 li {
@@ -44,38 +44,13 @@ li.active {
     background-color: pink;
 }
 
-.rectangle {
-    width: 200px;
-    height: 100px;
-    margin: 100px 20px;
-    text-align:center;
-    color: white;
-}
-
-.pink {
-    background-color: pink
-}
-
-.green {
-    background-color:#b4eeb4;
-}
-
-.blue {
-    background-color:#afeeee;
-}
-
 
 footer {
     background-color:pink;
-    padding: 1px 16px;
+    padding: 1px 5px;
 }
 
     footer >p {
         color: white;
         font-size: 0.8em;
     } 
-
-figure {
-    float: right;
-    margin: 0 0 0 16px;
-}
