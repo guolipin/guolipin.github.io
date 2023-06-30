@@ -1,56 +1,86 @@
-body {
-    margin-left:16px;
-    font-family: Verdana, Arial, sans-serif;
-}
+<style>
+    body {
+        margin-left:16px;
+        font-family: Verdana, Arial, sans-serif;
+    }
 
-hearder {
-    background-color:#f9e0de;
-    padding: 2px 16px;
-}
+    hearder {
+        background-color:#f9e0de;
+        padding: 2px 16px;
+    }
 
-h1 {
-    color: white;
-    background-color: #ffc0cb;
-}
-
-h1.clicked {
-    color: #ffc0cb;
-    background-color: #fdf4f3;
-}
-
-h1.node{
-    font-family: monospace;
-}
-
-h2 {
-    color: #ffe4e1;
-    margin-left: 40px;            
-    border-bottom: 4px dotted black;
-}
-
-ul {
-    font-family: "Verdana", sans-serif;
-    background-color:#ffc0cb;
-    color:#fdf4f3;
-    padding: 8px 5px;
-}
-
-li {
-    padding: 8px 20px;
-    display: inline;
-}
-
-li.active {
-    background-color: pink;
-}
-
-
-footer {
-    background-color:pink;
-    padding: 1px 5px;
-}
-
-    footer >p {
+    h1 {
         color: white;
-        font-size: 0.8em;
-    } 
+        background-color: #ffc0cb;
+    }
+
+    h1.clicked {
+        color: #ffc0cb;
+        background-color: #fdf4f3;
+    }
+
+    h1.node{
+        font-family: monospace;
+    }
+
+    h2 {
+        color: #ffe4e1;
+        margin-left: 40px;            
+        border-bottom: 4px dotted black;
+    }
+
+    ul {
+        font-family: "Verdana", sans-serif;
+        background-color:#ffc0cb;
+        color:#fdf4f3;
+        padding: 8px 5px;
+    }
+
+    li {
+        padding: 8px 20px;
+        display: inline;
+    }
+
+    li.active {
+        background-color: pink;
+    }
+
+
+    footer {
+        background-color:pink;
+        padding: 1px 5px;
+    }
+
+        footer >p {
+            color: white;
+            font-size: 0.8em;
+        } 
+
+    table {
+        background-color: white;
+        border: 0px;
+        border-collapse:collapse;
+    }
+
+    td, th{
+        padding: 4px 8px;
+        text-align: center;
+        border: 2px solid #ffc0cb;
+    }
+
+    th {
+        font-weight: normal;
+        background-color: pink;
+        color:white;
+    }
+
+    td {
+        color:#ffc0cb;
+        font-weight: bold;
+    }
+
+    .origin {
+        background-color: #ffc0cb;
+        color: white;
+    }
+</style>
