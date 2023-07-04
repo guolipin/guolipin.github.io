@@ -83,4 +83,12 @@
         background-color: #ffc0cb;
         color: white;
     }
+
+    /* tr:nth-child(odd){
+        background-color:#ffc0cb;
+    } */
+
+    .result {
+        background-color: white;
+    }
 </style>
