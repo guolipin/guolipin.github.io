@@ -1,6 +1,7 @@
 # Build A Personal Website From Scratch
 
 ### Update
+- 06/07/23 Add video in the homepage
 - 04/07/23 Set column background of table
 - 30/06/23 Add table style
 - 27/06/23 Add a table as a structure
