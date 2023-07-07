@@ -33,12 +33,12 @@ ul {
     font-family: "Verdana", sans-serif;
     background-color:#ffc0cb;
     color:#fdf4f3;
-    padding: 8px 5px;
+    padding: 8px 0px;
     text-align: right;
 }
 
 li {
-    padding: 8px 20px;
+    padding: 8px 18px;
     display: inline;
 }
 
@@ -49,7 +49,7 @@ li.active {
 
 footer {
     background-color:pink;
-    padding: 1px 5px;
+    padding: 1px 4px;
 }
 
     footer >p {
@@ -66,7 +66,7 @@ table {
 td, th{
     padding: 0px 5px;
     text-align: center;
-    border: 1px solid #ffc0cb;
+    /* border: 1px solid #ffc0cb; */
 }
 
 /* th {
@@ -96,9 +96,13 @@ td {
 th, tfoot {
     background:pink;
     color: white;
+    padding: 8px 5px;
 }
 
 tbody {
     height: 300px;
     overflow-y: scroll;
 }
+
+
+
