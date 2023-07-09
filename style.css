@@ -32,7 +32,7 @@ h2 {
 ul {
     font-family: "Verdana", sans-serif;
     background-color:#ffc0cb;
-    color:#fdf4f3;
+    color:white;
     padding: 8px 0px;
     text-align: right;
 }
@@ -103,6 +103,19 @@ tbody {
     height: 300px;
     overflow-y: scroll;
 }
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 
 
 
