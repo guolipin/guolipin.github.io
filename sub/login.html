@@ -8,12 +8,19 @@
       </head>
 <body>
     <form action="#">
-        <p>Welcom to the website!</p>
-        <input name="fname" />
-        <br />
-        <input name="lname" />
-        <br />
-        <input type="submit" value="Do it!"
+        <fieldset>
+            <legend>Your Account</legend>
+            <label for="login">Login name:</label>
+            <input id="login" type="text" name="login" />
+            <br />
+            <label for="pwd">Password:</label>
+            <input id="pwd" type="password" name="pwd" />
+            <br />
+            <label for="pwd2">Confirm Password:</label>
+            <input id="pwd2" type="password" name="pwd2">
+            <br />
+        </fieldset>
+        <input type="submit" value="Register" />
     </form>
 </body>
 </html>

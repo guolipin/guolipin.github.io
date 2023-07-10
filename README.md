@@ -1,6 +1,7 @@
 # Build A Personal Website From Scratch
 
 ### Update
+- 10/07/23 Modify the login page
 - 08/07/23 Add a login page
 - 07/07/23 Remove video and 
 add background music
