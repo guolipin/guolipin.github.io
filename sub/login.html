@@ -9,6 +9,27 @@
 <body>
     <form action="#">
         <fieldset>
+            <legend>Your Information</legend>
+            <label for="salutation">Salutation</label>
+            <select id="salutation" name="salutation">
+                <option label="" value="" />
+                <option label="Mr." value="Mr." selected />
+                <option label="Mrs." value="Mrs." />
+                <option label="Ms." value="Ms." />
+                <option label="Dr." value="Dr." />
+            </select>
+            <br />
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" name="fname" autofocus />
+            <br />
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" name="lname" />
+            <br />
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="email">
+            <br />
+        </fieldset>
+        <fieldset>
             <legend>Your Account</legend>
             <label for="login">Login name:</label>
             <input id="login" type="text" name="login" />
