@@ -1,6 +1,8 @@
 # Build A Personal Website From Scratch
 
 ### Update
+- 19/07/23 Add multiple 
+choices to fieldset
 - 12/07/23 Add more fieldset in 
 the login page
 - 10/07/23 Modify the login page
